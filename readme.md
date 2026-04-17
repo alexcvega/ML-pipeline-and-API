@@ -16,11 +16,17 @@ JSON
 }
 
 How to Run the Project
+
 Install Python: Ensure Python 3.9+ is installed from python.org.
+
 Execution: Double-click the setup_and_run.bat file.
+
 Note: This script will automatically create a Virtual Environment, install all required
 dependencies from requirements.txt, train the Random Forest model, and launch the API.
+
 Access the API: Once the terminal says "Application startup complete," open your browser to:
+
 http://127.0.0.1:8080/docs
+
 Testing: Use the interactive Swagger UI to send a "POST" request with patient data to see the
 live BMI prediction
